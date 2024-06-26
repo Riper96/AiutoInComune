@@ -17,4 +17,10 @@ public class ComuneServiceImpl implements ComuneService{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public Comune findById(Comune comune) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
