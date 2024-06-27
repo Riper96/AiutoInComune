@@ -46,7 +46,7 @@ public class Segnalazione {
 	private String descrizione;
 	
 	@Column(nullable = false)
-	private String priorità;
+	private String priorita;
 	//E un enum da vedere come fare la dichiarazione se usare un array oppure un altro metodo da ricercare
 	
 	@ManyToOne(fetch = FetchType.EAGER)//per gli 1 a N
