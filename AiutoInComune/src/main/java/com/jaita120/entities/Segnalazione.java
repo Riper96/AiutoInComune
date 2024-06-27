@@ -40,7 +40,7 @@ public class Segnalazione {
 	private String foto;
 	
 	@Column(nullable = false)
-	private String segnalazioni;
+	private String categoria;
 	//E un enum da vedere come fare la dichiarazione se usare un array oppure un altro metodo da ricercare
 	
 	@Column(nullable = false)
