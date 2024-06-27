@@ -21,7 +21,7 @@ public class Admin {
 	@Column(nullable = false)
 	private String username;
 	
-	
+	//prova aggiungo un commento
 	@Column(nullable = false)
 	private String password;
 	
