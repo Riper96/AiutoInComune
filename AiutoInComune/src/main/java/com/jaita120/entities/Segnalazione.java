@@ -34,7 +34,6 @@ public class Segnalazione {
 	
 	@Column(nullable = false)
 	private Date data;
-	//Capire se è meglio importare dalla libreria sql o util
 	
 	@Column(nullable = false)
 	private String foto;
